@@ -36,9 +36,6 @@ export default function Product({
 function TruncatedTitle({
   title,
   maxLength = 18,
-}: {
-  title: string;
-  maxLength?: number;
 }) {
   const [truncatedTitle, setTruncatedTitle] = useState(title);
 
