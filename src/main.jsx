@@ -4,8 +4,8 @@ import App from "./App.jsx";
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Checkout from "./pages/Checkout.tsx";
-import Details from "./pages/details.tsx";
+import Checkout from "./pages/Checkout.jsx";
+import Details from "./pages/details.jsx";
 
 const router = createBrowserRouter([
   {
